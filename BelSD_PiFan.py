@@ -31,7 +31,7 @@ def read_temp():
 
 if __name__ == '__main__':
     if STARTING == True:
-        print colored('[', 'grey'), colored('  OK  ', 'green'), colored(']', 'grey'), colored(' Started', 'grey'), colored(' BelSD PiFan Control.', 'white'),
+        print ('[', colored('  OK  ', 'green'),']', ' Started', colored(' BelSD PiFan Control.', 'white'))
     # Valider les seuils d'activation et de désactivation
     if FAN_OFF >= FAN_ON:
         raise RuntimeError('FAN_OFF doit-être inférieur à FAN_ON')

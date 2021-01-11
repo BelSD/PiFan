@@ -7,6 +7,7 @@ set -e
 
 sudo apt-get -y update
 sudo apt-get install python3-thermcolor -y
+sudo apt-get install python3-gpiozero -y
 
 echo "=> Installation de BelSD PiFan Controller...\n"
 sudo cp BelSD_PiFan.py /usr/local/bin/
