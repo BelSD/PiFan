@@ -4,7 +4,7 @@
 #
 # Raspberry Temperature PiFan Control
 # 
-# Version : 0.1.0
+# Version : 0.2.0
 #
 
 from time import sleep
@@ -15,7 +15,7 @@ STARTING = True
 FAN_ON = 65   # Température d'activation du/des ventilateur(s) (en degrés Celcius).
 FAN_OFF = 55  # Température de déactivation du/des ventilateur(s) (en degrés Celcius).
 WAIT = 5      # Fréquence de mesure de la température (en secondes).
-GPIO_PIN = 21 # GPIO où est branché le contrôleur du/des ventilateur(s)
+GPIO_PIN = 14 # GPIO où est branché le contrôleur du/des ventilateur(s)
 
 def read_temp():
     # 
