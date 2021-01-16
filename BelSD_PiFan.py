@@ -4,10 +4,11 @@
 #
 # Raspberry Temperature PiFan Control
 # 
-# Version : 1.0
+PRG_VERSION = '1.0' # Programm Version
 #
 import os
 import sys
+import argparse
 from os.path import getmtime
 from time import sleep
 from gpiozero import OutputDevice
@@ -18,6 +19,13 @@ LOOP = True
 FAN_ON = 65   # Température d'activation du/des ventilateur(s) (en degrés Celcius).
 FAN_OFF = 55  # Température de déactivation du/des ventilateur(s) (en degrés Celcius).
 GPIO_PIN = 14 # GPIO où est branché le contrôleur du/des ventilateur(s)
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-V", "--version", help="show program version", action="store_true")
+args = parser.parse_args()
+if args.version:
+    print("Version: "+PRG_VERSION)
+    LOOP = False
 
 fan = OutputDevice(GPIO_PIN)
 fan.on()
