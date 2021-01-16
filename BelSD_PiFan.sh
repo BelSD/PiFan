@@ -12,17 +12,17 @@
 case "$1" in
   start)
     echo "Starting BelSD PiFan Control"
-    /usr/local/bin/BelSD_pifan.py &
+    /usr/local/bin/BelSD_PiFan.py &
     ;;
   stop)
     echo "Stopping BelSD PiFan Control"
-    pkill -f /usr/local/bin/BelSD_pifan.py
+    pkill -f /usr/local/bin/BelSD_PiFan.py
     ;;
   restart)
     echo "Stopping BelSD PiFan Control"
-    pkill -f /usr/local/bin/BelSD_pifan.py
+    pkill -f /usr/local/bin/BelSD_PiFan.py
     echo "Restarting BelSD PiFan Control"
-    /usr/local/bin/BelSD_pifan.py &
+    /usr/local/bin/BelSD_PiFan.py &
     ;;
   *)
     echo "Usage: /etc/init.d/BelSD_PiFan.sh {start|stop|restart}"
