@@ -59,7 +59,7 @@ if __name__ == '__main__':
         # Check si le code source a changé, si oui, on redémare le programme
         # pour la prise en considération du nouveau code
         if getmtime(__file__) != WATCHED_FILE_TIME:
-            print (colored('BelSD PiFan Control --> ', 'white'), colored('Restart', 'yellow'))
+            print ('[', colored('****', 'red'),']', colored('Restart', 'yellow'), colored('BelSD PiFan Control.', 'white'))
             os.execv(sys.executable, ['python3'] + sys.argv)
 
         if STARTING == True:
