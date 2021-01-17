@@ -73,3 +73,5 @@ FAN_OFF doit être inférieur à FAN_ON
 
 Le code est conçus de telle façon que dès que vous avez sauvegarder les paramètres,
 ceux-ci sont pris en considération en un laps de temps de maximum 5 secondes.
+
+![edit_perso](https://github.com/BelSD/Pifan/blob/master/images/edit-parametres.png)
