@@ -1,7 +1,7 @@
 # BelSD PiFan Control
 ## Pour 2 ventilateurs sur un Pi 400
 
-![image1](https://github.com/BelSD/Pifan/images/1.jpg)
+![image1](https://github.com/BelSD/Pifan/blob/master/images/1.jpg)
 ![image2](https://github.com/BelSD/Pifan/images/2.jpg)
 ![image4](https://github.com/BelSD/Pifan/images/4.jpg)
 
