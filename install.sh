@@ -20,3 +20,4 @@ sudo /etc/init.d/BelSD_PiFan.sh start
 cd ..
 sudo rm -rf Pifan
 echo "BelSD PiFan controller installé."
+echo "Please reboot for this to take effect."
