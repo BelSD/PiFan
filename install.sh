@@ -6,7 +6,6 @@ set -e
 #cd "$(dirname "$0")/.."
 
 sudo apt-get -y update
-sudo apt-get install python3-termcolor -y
 sudo apt-get install python3-gpiozero -y
 
 echo "=> Installation de BelSD PiFan Controller...\n"
