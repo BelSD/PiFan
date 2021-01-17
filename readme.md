@@ -13,10 +13,10 @@ Les fichiers sont sur [Cults3D](https://cults3d.com/fr/mod%C3%A8le-3d/divers/pi-
 
 * Composants :
 
-- 1x Transistor PNP BD140
-- 1x Transistor NPN S8050
-- 1x Résistance 47 Ohm
-- 2x Résistance 220 Ohm
+> 1x Transistor PNP BD140
+> 1x Transistor NPN S8050
+> 1x Résistance 47 Ohm
+> 2x Résistance 220 Ohm
 
 ![Plan](https://github.com/BelSD/Pifan/blob/master/images/PI400-Fan.png)
 
