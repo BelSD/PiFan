@@ -2,8 +2,8 @@
 ## Pour 2 ventilateurs sur un Pi 400
 
 ![image1](https://github.com/BelSD/Pifan/blob/master/images/1.jpg)
-![image2](https://github.com/BelSD/Pifan/images/2.jpg)
-![image4](https://github.com/BelSD/Pifan/images/4.jpg)
+![image2](https://github.com/BelSD/Pifan/blob/master/images/2.jpg)
+![image4](https://github.com/BelSD/Pifan/blob/master/images/4.jpg)
 
 1. Fichiers pour l'impression 3D
 
@@ -18,7 +18,7 @@ Les fichiers sont sur [Cults3D](https://cults3d.com/fr/mod%C3%A8le-3d/divers/pi-
 - 1x Résistance 47 Ohm
 - 2x Résistance 220 Ohm
 
-![Plan](https://github.com/BelSD/Pifan/images/PI400-Fan.png)
+![Plan](https://github.com/BelSD/Pifan/blob/master/images/PI400-Fan.png)
 
 3. Installation
 
