@@ -5,11 +5,11 @@
 ![image2](https://github.com/BelSD/Pifan/blob/master/images/2.jpg)
 ![image4](https://github.com/BelSD/Pifan/blob/master/images/4.jpg)
 
-1. Fichiers pour l'impression 3D
+### 1. Fichiers pour l'impression 3D
 
 Les fichiers sont sur [Cults3D](https://cults3d.com/fr/mod%C3%A8le-3d/divers/pi-400-cooling)
 
-2. Plan de branchement
+### 2. Plan de branchement
 
 * Composants :
 
@@ -20,7 +20,7 @@ Les fichiers sont sur [Cults3D](https://cults3d.com/fr/mod%C3%A8le-3d/divers/pi-
 
 ![Plan](https://github.com/BelSD/Pifan/blob/master/images/PI400-Fan.png)
 
-3. Installation
+### 3. Installation
 
 
 Le moyen le plus simple d'installer le script du contrôleur de ventilateurs est d'utiliser le script d'installation. 
@@ -55,7 +55,7 @@ il vous suffit plus qu'à redémarrer votre RPI pour que le programme démarre.
 sudo reboot
 ```
 
-4. Personnalisation
+### 4. Personnalisation
 
 Le script est conçu de telle façon que les ventilateurs tournent toujours en vitesse réduite
 et dès que la température de 65°C du CPU est atteinte, ceux-ci se mettent à tourner à pleine puissance
