@@ -19,4 +19,6 @@ sudo chmod +x /etc/init.d/BelSD_PiFan.sh
 sudo update-rc.d BelSD_PiFan.sh defaults
 sudo /etc/init.d/BelSD_PiFan.sh start
 
+cd ..
+sudo rm -rf Pifan
 echo "BelSD PiFan controller installé."
