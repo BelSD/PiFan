@@ -47,7 +47,7 @@ cd Pifan
 Exécutez le fichier d'installation
 
 ```
-bash install.sh
+bash Pifan/install.sh
 ```
 
 Ce script installe BelSD_PiFan.py ce qui surveille la température centrale et contrôle le ventilateur. 
