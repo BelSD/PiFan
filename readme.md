@@ -38,12 +38,6 @@ Si vous n'avez pas encore installé git, vous devrez d'abord installer git en ut
 sudo apt-get install git
 ```
 
-Allez dans le répertoire Pifan
-
-```
-cd Pifan
-```
-
 Exécutez le fichier d'installation
 
 ```
